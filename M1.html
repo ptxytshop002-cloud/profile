@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>โปรไฟล์และผลการเรียน</title>
+  <style>
+    body {
+      font-family: "Sarabun", sans-serif;
+      background-color: #f0f4f8;
+      margin: 0;
+      padding: 20px;
+      color: #333;
+    }
+    .container {
+      max-width: 700px;
+      margin: auto;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      padding: 20px;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    header h1 {
+      margin: 0;
+      color: #2a7ae2;
+    }
+    .profile {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      margin-bottom: 30px;
+    }
+    .profile img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #2a7ae2;
+    }
+    .profile-info {
+      flex-grow: 1;
+    }
+    .profile-info h2 {
+      margin: 0 0 10px 0;
+      font-size: 1.5em;
+      color: #1a4a8a;
+    }
+    .profile-info p {
+      margin: 4px 0;
+      font-size: 1em;
+    }
+    .grades {
+      margin-top: 10px;
+    }
+    .grades img {
+      max-width: 100%;
+      border-radius: 8px;
+      box-shadow: 0 0 5px rgba(42, 122, 226, 0.3);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>ข้อมูลส่วนตัวและผลการเรียน</h1>
+    </header>
+
+    <section class="profile">
+      <img src="https://lh5.googleusercontent.com/d/1lUFCXnRqaHCBQY1UO7rr57NFVHfzEChi" alt="รูปโปรไฟล์" />
+      <div class="profile-info">
+        <h2>ชื่อ: พรภวิษย์ คุ้มคล้าย</h2>
+        <p>โรงเรียน: โรงเรียนปทุมวิไล</p>
+        <p>ชั้น: มัธยมศึกษาปีที่ 6</p>
+        <p>อายุ: 18 ปี</p>
+      </div>
+    </section>
+
+    <section class="grades">
+      <h3>ภาพผลการเรียน</h3>
+      <img src="https://lh5.googleusercontent.com/d/18AvwYrrl4_JjZK4RCrR0nlAIw_C2WBTS" alt="ภาพผลการเรียน" />
+    </section>
+  </div>
+</body>
+</html>
